@@ -66,7 +66,7 @@ export interface MathQuillConfig {
   autoSubscriptNumerals?: boolean,
   autoCommands?: string,
   autoOperatorNames?: string,
-  substituteTextArea?: () => HTMLElement;
+  substituteTextarea?: () => HTMLElement;
   handlers?: {
     edit?: (mathField) => this;
     upOutOf?: (mathField) => this;
